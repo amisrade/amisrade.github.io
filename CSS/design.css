@@ -1,0 +1,30 @@
+.design-hero h1{
+    color: white;
+}
+
+.design-hero h2{
+    padding-top: 40px;
+}
+
+.design-hero{
+    color: rgb(246, 241, 241);
+    padding:  30px 50px;
+    font-family: sans-serif;
+
+}
+.design-hero p{
+    padding: 15PX 0;
+}
+.challenge h1{
+    padding-top: 30px;
+    padding-left: 20px;
+    font-size: 35px;
+ 
+}
+.ch-p{
+    background: rgb(171, 167, 167);
+    color: rgb(255, 251, 251);
+    font-family: sans-serif;
+    padding: 40px;
+    line-height: 20px;
+}

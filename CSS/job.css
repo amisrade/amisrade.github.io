@@ -1,0 +1,59 @@
+body{
+    color: white;
+    font-family: sans-serif;
+}
+.col{
+    padding: 30px 100px ;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.hero{
+    border: 1px solid rgb(0, 157, 255);
+    margin: 10px;
+
+}
+.center{
+    text-align: center;
+}
+.hero h1{
+font-size: 1.5rem;
+padding: 5px;
+margin: 5px;
+outline: 1px solid rgb(217, 255, 0);
+
+}
+.hero h2{
+    font-size: 2rem;
+    padding: 5px;
+    border: 1px solid rgb(177, 237, 209);
+
+}
+.hero img{
+    padding: 10px;
+    border: 1px solid red;
+
+}
+.hero p{
+    padding: 5px;
+    margin: 10px 0;
+    border: 1px solid red;
+
+
+}
+.hero button{
+    padding: 7px 10px;
+    border-radius: 10px;
+    border: none;
+}
+.btn{
+    display: inline-block
+    ;
+    outline: 1px solid rgb(111, 0, 255);
+    padding: 10px;
+
+
+}
+section{
+    margin: 10px;
+    border: 1px solid red;
+}

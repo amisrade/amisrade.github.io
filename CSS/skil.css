@@ -1,0 +1,61 @@
+.skils {
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid red;
+    margin-bottom: 30px;
+
+
+}
+
+.boxes {
+    display: flex;
+    background-color: white;
+    align-items: center;
+    font-family: sans-serif;
+    margin: 20px ;
+}
+
+.tools {
+    width: 700px;
+    margin-left: 40px;
+    margin: 20px ;
+
+
+}
+
+.tools h4 {
+    padding: 10px;
+    display: inline;
+    font-size: 25px;
+    border: 1px solid rgb(0, 72, 255);
+
+}
+
+.tools .p {
+    border: 1px solid rgb(0, 255, 106);
+    border-left: 7px solid white;
+
+    
+}
+
+.tools p {
+    padding: 10px;
+
+}
+
+.boxes h1 {
+    font-family: sans-serif;
+    font-size: 20px;
+    width: 20%;
+    border: 1px solid rgb(0, 106, 255);
+    margin: 10px;
+    padding: 10px;
+}
+
+.boxes p {
+    width: 60%;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid rgb(255, 81, 0);
+
+}
