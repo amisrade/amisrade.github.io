@@ -1,127 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Site</title>
     <link rel="stylesheet" href="./CSS/style.CSS">
-    <link rel="stylesheet" href="./CSS/design.css">
-</head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />    <title>UI Interaction</title>
 
+</head>
 <body>
-    <section>
     <header>
+        <div  class="logo">
+            <p><a href="/index.html">Abraham Israde</a></p>
+
+        </div>
         <div class="nav-links">
             <ul>
                 <li> <a href="/about.html">About</a> </li>
-                <li> <a href="/">My skills</a> </li>
-                <li> <a href="/" style="border-bottom:1px solid white ;">Design Process</a> </li>
-                <li> <a href="/">Resume</a> </li>
-                <li> <a href="/">Contact</a> </li>
+                <li> <a href="/skill.html">My skills</a> </li>
+                <li> <a style="border-bottom:2px solid white;" href="/design.html">Design Process</a> </li>
+                <li> <a   href="/resume.html">Resume</a> </li>
+                <li> <a href="/contact.html">Contact</a> </li>
             </ul>
 
         </div>
     </header>
-
-    <div class="design-hero">
-        <h1>Women of the World Website Redesign</h1>
-        <div class="text-sec">
-            <h2>
-                About the Project
-            </h2>
-            <p>
-                <span>Goal</span>: Redesign the Women of the World Website to improve user functionality and overall
-                website
-                aesthetics and friendliness.
-
-            </p>
-            <p>
-                <span>Type</span>: Product Design, Concept Duration: 1 month, Nov 2022
-
-            </p>
-            <p>
-                <span>Skills</span>: UX/UI design, Interaction and Visual Design
-
-            </p>
-            <p>
-                <span>Responsibility</span>: I designed this Website to further my UX/UI skills
-
-            </p>
-
-
-
-
+    <div class="hero">
+        <div class="center">
+            <h1 style="display: inline-block;"> MY WORK</h1>
 
         </div>
-        <div class="challenge">
-            <h1>
-                Challenge
+        <div class="grids">
+            <div class="col">
+                <img src="./Images/dd 1.png" alt="dd" width="300">
+                <div class="text">
+                    <h2>“Women of the World” <br> Website Redesign Project</h2>
+                    <p>
+                        Flipping a rough looking,  non-profit organization website to a eye catching website was absolute hit! Find out more about the step by step process!                    </p>
+                        <div class="btn">
+                            <button ><a href="./women.html">View Project</a></button>
+                           </div>        
 
-            </h1>
+                </div>
+    
+            </div>
+            <div class="col">
+                <img src="./Images/circle.png" alt="dd" width="250">
+                <div class="text">
+                    <h2>“Pin Point” Travel App Project</h2>
+                    <p>
+                        Traveling has never been non-stress free- I learned and grew so much working through this project, as I was diving into the UX/UI world. Check it out! </p>
+                        <div class="btn">
+                            <button ><a href="./pin.html">View Project</a></button>
+                           </div>
+    
+
+                </div>
+    
+            </div>
+
         </div>
-
 
     </div>
 
-
-
-    </section>
-    <p class="ch-p">
-        Women of the World is an Non-For-Profit that looks to empower and help women that have been forcibly displaced
-        in society from every corner of the world. The site has a very colorful design that looks to show it’s
-        multi-cultural design. At first glance, it does make it hard to take in the information - so our mission is to
-        maintain that warmth and attract the eyes around the page but all the while allow for the information to be
-        easily absorbed.
-    </p>
-
-    <div class="design-hero">
-        <h1>“PIN POINT” Travel App</h1>
-        <div class="text-sec">
-            <h2>
-                About the Project
-            </h2>
-            <p>
-                <span>Goal</span>:Create a lowfi onboarding process, of a user-friendly travel app that helps travelers
-                conveniently organize their travel plans and schedules
-
-            </p>
-            <p>
-                <span>Type</span>:Product Design, ConceptDuration: 1 month, September 2022
-
-            </p>
-            <p>
-                <span>Skills</span>: UX/UI design, Interaction and Visual Design
-
-            </p>
-            <p>
-                <span>Responsibility</span>: I designed this application to further my UX/UI skills and understanding
-
-            </p>
-
-
-
+    <footer class="margin">
+        <div class="navs ">
+            <ul>
+                <li><a href="">My Skils</a></li>
+                <li><a href=""> Design process</a></li>
+                <li><a href="">Resume</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
 
 
         </div>
-        <div class="challenge">
-            <h1>
-                Challenge
-
-            </h1>
+        <div class="social">
+            <img  class="sliding" src="./Images/linkedin.png" alt="">
+            <img  class="sliding" src="./Images/fb.png" alt="">
+            <img  class="sliding"src="./Images/Instagram.png" alt="">
+            <img class="sliding"src="./Images/w.png" alt="">
+            <img class="sliding"src="./Images/email.png" alt="">
+    
         </div>
 
+    </footer>
+    <div id="loading"></div>
 
-    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js">
 
-
-
-    <p class="ch-p">
-        Travelers are often left stressed out and disorganized when planning a trip, So i developed an app that helps
-        travelers make the most out of their trips by conveniently scheduling plans together and finding fun travel
-        activities</p>
+    </script>
+        <script src="./Js/index.js"></script>
 
 </body>
-
 </html>
