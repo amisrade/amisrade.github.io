@@ -277,8 +277,8 @@ margin: 5px;
   
   #loading:before {
     content: '';
-    border: 5px solid #33b196;
-    border-top: 5px solid #34db6e;
+    border: 5px solid #f2f9f8;
+    border-top: 5px solid #5a5e5c;
     border-radius: 50%;
     width: 30px;
     height: 30px;
